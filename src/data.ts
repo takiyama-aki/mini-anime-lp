@@ -109,71 +109,71 @@ export const PLANS: Plan[] = [
 
 export const BUSINESS_POINTS: BusinessPoint[] = [
   {
-    title: "背景とミッション",
+    title: "事業1",
     description:
-      "クリエイティブ業界で活躍する新人アニメーターの雇用と育成を目的に、少人数制での作品づくりを通じて実践の場を提供します。",
+      "説明",
   },
   {
-    title: "制作できるもの",
+    title: "事業2",
     description:
-      "SNS 向けの縦長ショートアニメから、事業紹介やブランドムービーまで、1〜2 分のフル尺を意識したミニアニメを中心に制作可能です。",
+      "説明",
   },
   {
-    title: "育成と伴走",
+    title: "事業3",
     description:
-      "現役の背景美術監督と演出家がメンターとなり、リモート勉強会やフィードバックセッションを通じて新人が自走できる体制を整えています。",
+      "説明",
   },
 ];
 
 export const PROCESS_DETAILS: ProcessDetail[] = [
   {
-    title: "企画・コンセプト",
+    title: "工程",
     description:
-      "ヒアリングをもとにブランド課題を整理し、動画のゴール・トーン&マナー・尺を明確にします。必要に応じてシナリオライターも参画。",
+      "説明",
     requestRange:
-      "世界観キーワード、使用シーン、伝えたいメッセージなどをテキストや参考資料でリクエスト可能です。",
+      "リクエストできる範囲",
     image:
-      "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/vector-1738590593450-647695dbf9d0?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "ビジュアル設計",
+    title: "工程",
     description:
-      "イメージボードとキャラクターデザインを複数案提示し、色彩・質感・アニメーションテイストを確定します。",
+      "説明",
     requestRange:
-      "色指定、服装やアイテム、背景に登場させたいモチーフなど細部のリクエストに対応できます。",
+      "リクエストできる範囲",
     image:
-      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/vector-1738590593450-647695dbf9d0?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "アニメーション制作",
+    title: "工程",
     description:
-      "レイアウトから原画・動画・仕上げ・撮影まで一気通貫で担当し、要所で監督がクオリティチェックを行います。",
+      "説明",
     requestRange:
-      "動かしたいカットの優先順位や、差し替えたいセリフ・BGM のタイミング指定を共有いただけます。",
+      "リクエストできる範囲",
     image:
-      "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/vector-1738590593450-647695dbf9d0?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
 export const SCHEDULE: ScheduleItem[] = [
   {
-    phase: "ご相談〜要件定義",
-    duration: "約2週間",
-    detail: "オンライン面談2回＋メッセージでの追加ヒアリングで目的とKPIを固めます。",
+    phase: "フェーズ1",
+    duration: "約⚪︎週間",
+    detail: "説明",
   },
   {
-    phase: "プリプロダクション",
-    duration: "4〜6週間",
-    detail: "企画書・絵コンテ・デザイン案を並走で作成し、最大2回まで大幅修正が可能です。",
+    phase: "フェーズ2",
+    duration: "約⚪︎週間",
+    detail: "説明",
   },
   {
-    phase: "アニメーション制作",
-    duration: "6〜8週間",
-    detail: "レイアウト〜仕上げまでを週次で共有。カット単位の微調整は中間確認の際に受付。",
+    phase: "フェーズ3",
+    duration: "約⚪︎週間",
+    detail: "説明",
   },
   {
-    phase: "納品・導入サポート",
-    duration: "約1週間",
-    detail: "用途に合わせたフォーマットで書き出し、運用用のサムネイルやショート版もオプションで提供します。",
+    phase: "フェーズ4",
+    duration: "約⚪︎週間",
+    detail: "説明",
   },
 ];
