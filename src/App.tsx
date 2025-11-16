@@ -1,5 +1,11 @@
 import "./index.css";
-import { PLANS, YT_SAMPLES } from "./data";
+import {
+  PLANS,
+  YT_SAMPLES,
+  BUSINESS_POINTS,
+  PROCESS_DETAILS,
+  SCHEDULE,
+} from "./data";
 import { PlanCard } from "./components/PlanCard";
 
 export default function App() {
@@ -13,6 +19,49 @@ export default function App() {
           あなただけのオリジナル・ミニアニメを制作します。
         </p>
       </header>
+
+      <section>
+        <h2>事業の説明</h2>
+        <div className="about-grid">
+          {BUSINESS_POINTS.map((point) => (
+            <article key={point.title} className="about-card">
+              <h3>{point.title}</h3>
+              <p>{point.description}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <h2>工程の説明</h2>
+        <div className="process-grid">
+          {PROCESS_DETAILS.map((process) => (
+            <article key={process.title} className="process-card">
+              <img src={process.image} alt={process.title} loading="lazy" />
+              <div>
+                <h3>{process.title}</h3>
+                <p>{process.description}</p>
+                <p className="muted">{process.requestRange}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <h2>スケジュールの説明</h2>
+        <ol className="timeline">
+          {SCHEDULE.map((item) => (
+            <li key={item.phase}>
+              <div className="timeline-head">
+                <span className="phase">{item.phase}</span>
+                <span className="duration">{item.duration}</span>
+              </div>
+              <p>{item.detail}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
 
       <section>
         <h2>支援プラン</h2>
